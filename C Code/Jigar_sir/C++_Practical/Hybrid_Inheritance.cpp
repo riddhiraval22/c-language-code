@@ -55,13 +55,15 @@ class D:public B,public c
 		}
 };
 int main()
-{
+{ B b1;
 	D d1;
 	//d1.getA(); can't call
+	b1.getA();
 	d1.getB();
 	d1.getC();
 	d1.getD();
 	//d1.putA(); can't call
+	b1.putA();
 	d1.putB();
 	d1.putC();
 	d1.putD();
