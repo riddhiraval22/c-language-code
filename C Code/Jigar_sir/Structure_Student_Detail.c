@@ -8,19 +8,29 @@ struct Student
 };
 struct Student getdata(struct Student s)
 {
-	printf("\nEnter Roll no of Student :");
+	int i;
+	for (i=0;i<3;i++)
+	{
+	printf("\nEnter Roll no of Student %d:",i);
 	scanf("%d",&s.rno);
-	printf("\nEnter Student Name of :");
+	printf("\nEnter Student Name of %d:",i);
 	scanf("%s",s.name);
-	printf("\nEnter Percentage of Student : ");
+	printf("\nEnter Percentage of Student %d: ",i);
 	scanf("%ld",&s.per);
 	return s;
+	}
+	
 }
 void printData(struct Student s)
 {
-	printf("\nRoll No:%d",s.rno);
-	printf("\nStudent Name:%s",s.name);
-	printf("\nPercentage :%ld",s.per);
+	int i;
+	for (i=0;i<3;i++)
+	{
+	printf("\n%d Roll No :%d",i,s.rno);
+	printf("\n%d Student Name:%s",i,s.name);
+	printf("\n%d Percentage :%ld",i,s.per);
+	}
+	
 }
 void main()
 {

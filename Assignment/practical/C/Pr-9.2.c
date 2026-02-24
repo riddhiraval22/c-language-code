@@ -1,3 +1,6 @@
+/*LAB EXERCISE: o Write a C program that stores 5 integers in a one-dimensional array and prints them.
+ Extend this to handle a two-dimensional array (3x3 matrix) and calculate the sum of all elements.*/
+ 
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -23,3 +26,4 @@ void main()
 	}
 	printf("sum is : %d",sum);
 }
+

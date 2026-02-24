@@ -3,14 +3,15 @@
 void main()
 {
 	int a,b,ans,choice;
-	printf("\nEnter A :");
+	printf("\nEnter value 1 :");
 	scanf("%d",&a);
-	printf("\nEnter B :");
+	printf("\nEnter value 2 :");
 	scanf("%d",&b);
 	printf("\n\nEnter 1 for Addition.");
 	printf("\nEnter 2 for Subtraction.");
 	printf("\nEnter 3 for Multiplication.");
 	printf("\nEnter 4 for Division.");
+	printf("\nEnter 5 for Modululs.");
 	printf("\n\nEnter your choice :: ");
 	scanf("%d",&choice);
 	switch(choice)
@@ -31,8 +32,12 @@ void main()
 			ans=a/b;
 			printf("Division is :%d",ans);
 			break;
+		case 5:
+			ans=a%b;
+			printf("Modulues is : %d",ans);
+			break;
 		default:
-			printf("Worng choice");
+			printf("Invalid operation you choose!");
 			
 		
 	}
