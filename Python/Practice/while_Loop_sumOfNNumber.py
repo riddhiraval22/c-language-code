@@ -1,0 +1,8 @@
+# sum if n number using while loop
+
+n= int (input("Enter N: "))
+sum=0
+while n>0:
+    sum=sum+n
+    n-=1
+print("Sum : ",sum)
