@@ -21,16 +21,6 @@ class D(B,C):
     def putD(self):
         print("D :",self.d)
         
-b1=B()
-b1.getA(10)
-b1.putA()
-b1.getB(20)
-b1.putB()
-c1=C()
-c1.getA(10)
-c1.putA()
-c1.getC(30)
-c1.putC()
 d1=D()
 d1.getA(10)
 d1.putA()
