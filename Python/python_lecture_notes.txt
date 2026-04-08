@@ -1,0 +1,3 @@
+method overriding::
+
+when there is same prototype in your base and derived class and its called that method then only derived class method will be called.
